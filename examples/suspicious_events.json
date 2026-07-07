@@ -1,0 +1,18 @@
+{
+  "events": [
+    {
+      "kind": "process",
+      "process_name": "powershell.exe",
+      "parent_process": "cmd.exe",
+      "command_line": "powershell -enc SQBFAFgA",
+      "sensor": "example"
+    },
+    {
+      "kind": "process",
+      "process_name": "python.exe",
+      "parent_process": "cmd.exe",
+      "command_line": "python -m unittest discover",
+      "sensor": "example"
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "input": "C:\\Projects\\alain_alsahira\\data\\benchmarks\\alain_nvd_runtime_events.jsonl",
+  "records": 12000,
+  "repeat": 1,
+  "processed": 12000,
+  "errors": 0,
+  "metrics": {
+    "accuracy": 1.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "specificity": 1.0,
+    "f1": 1.0,
+    "tp": 5375,
+    "tn": 6625,
+    "fp": 0,
+    "fn": 0
+  },
+  "latency_ms": {
+    "mean": 0.05065182472996336,
+    "p50": 0.04780001472681761,
+    "p95": 0.0653000024612993,
+    "p99": 0.06989997928030789,
+    "max": 0.23320000036619604
+  },
+  "memory_mb": {
+    "current": 0.405939,
+    "peak": 0.40775
+  },
+  "elapsed_seconds": 0.7336986000009347,
+  "collapse_check": {
+    "passed": true,
+    "criteria": "errors == 0"
+  }
+}
